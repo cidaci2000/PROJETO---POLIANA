@@ -1,0 +1,52 @@
+
+
+body{font-size: 100%;
+    background: linear-gradient(to right, #358faa 0%, #161c57 100%);
+}
+.cabecalho{
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 18px;
+    margin-left: 450px;
+    align-items: center;
+}
+.principal{
+    font-family: "Noto Sans script=latin rev=3";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 20px;
+}
+.livro{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 0.4px solid rgb(3, 12, 29);
+    color: rgb(39, 24, 6);
+   margin-block-start: 25px;
+   margin-inline-start: 5px;
+   margin-inline-end: 5px;
+   
+   
+}
+.nda{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    margin: 20px;
+}
+
+.rodape{
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 20PX;
+    margin-bottom: 10PX;
+    color: rgb(3, 3, 236);
+    margin-left: 450px;
+   
+}

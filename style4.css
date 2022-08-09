@@ -1,0 +1,35 @@
+
+body{font-size: 100%;
+    background: linear-gradient(to right, #358faa 0%, #161c57 100%);
+}
+.cabecalho{
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 18px;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.livro{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 0.4px solid rgb(3, 12, 29);
+    color: rgb(5, 4, 3);
+   font-size: 20px;
+   margin: 5px;
+   
+}
+
+
+.rodape{
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 20PX;
+    margin-bottom: 10PX;
+    color: rgb(3, 3, 236);
+    margin-left: 450px;
+   
+}
