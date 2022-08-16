@@ -1,8 +1,31 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+
+}
+
 body{
-    font-size: 100%;
-    background: linear-gradient(to right, #358faa 0%, #161c57 100%);
-    margin-block-end: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url(fundo1.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-blend-mode: luminosity;
+}
+.texto{
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.roda{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(213, 220, 236);
+    font-size: 40px;
 }

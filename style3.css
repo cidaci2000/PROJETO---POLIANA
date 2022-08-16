@@ -1,76 +1,31 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
 
-body {font-size: 100%;
-    background: linear-gradient(to right, #4e35aa 0%, #161c57 100%);
 }
 
-.conosco{
-    color: rgb(11, 12, 12);
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 480px;
-}
-
-.principal{
+body{
 display: flex;
+justify-content: center;
+align-items: center;
 flex-direction: column;
-padding: 10px;
-    margin-bottom: 15px;
-    border: 5px solid rgb(28, 3, 87);
-    border-radius: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;   
-    
-
+background-image: url(fundo1.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-blend-mode: luminosity;
 }
-.content{
-    display: flex;
-    justify-content: center;
-font-size: 20px;
-
+.texto{
+    font-size: 25px;
+    color: black;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
 }
-
-.contato{
-    width: 100%;
-    max-width: 500px;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 5px solid rgb(19, 0, 0);
-    border-radius: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;   
-
-}
-.contato1{
-    margin-left: 20px;
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 5px solid rgb(22, 7, 228);
-    border-radius: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;   
-    
-}
-.field{
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 5px solid rgb(39, 7, 224);
-    border-radius: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;   
-    
-}
-
-.rodape{
-    box-sizing: border-box;
-    align-items: center;
-    margin-top: 20PX;
-    margin-bottom: 10PX;
-    color: rgb(5, 5, 5);
-   margin-left: 220px;
-   
+.roda{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(213, 220, 236);
+    font-size: 40px;
 }

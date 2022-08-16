@@ -1,52 +1,46 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
 
+}
 
-body{font-size: 100%;
-    background: linear-gradient(to right, #358faa 0%, #161c57 100%);
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url(fundo1.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-blend-mode: luminosity;
 }
-.cabecalho{
-    font-size: 50px;
-    color: aliceblue;
-    margin-top: 18px;
-    margin-left: 450px;
-    align-items: center;
+.anima{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+
 }
-.principal{
-    font-family: "Noto Sans script=latin rev=3";
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: initial;
-    font-size: 20px;
-}
-.livro{
+.anima1{
     display: flex;
-    flex: auto;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-top: 0.4px solid rgb(3, 12, 29);
-    color: rgb(39, 24, 6);
-   margin-block-start: 25px;
-   margin-inline-start: 5px;
-   margin-inline-end: 5px;
-   
-   
+    gap: 10px;
 }
-.nda{
-    display: flex;
-    flex-direction: column;
-}
-
-.linha{
+.texto{
+    font-size: 32px;
+    color: black;
     margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
-
-.rodape{
-    box-sizing: border-box;
-    align-items: center;
-    margin-top: 20PX;
-    margin-bottom: 10PX;
-    color: rgb(3, 3, 236);
-    margin-left: 450px;
-   
+.roda{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(213, 220, 236);
+    font-size: 40px;
 }
